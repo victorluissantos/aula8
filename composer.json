@@ -1,0 +1,66 @@
+{
+	"require-dev": {
+		"bootstrap/bootstrapJS":"*",
+		"bootstrap/bootstrapCSS":"*",
+		"font/fontawesome":"*",
+		"jquery/jquery2":"*",
+		"jquery/jquery3":"*"
+	},
+ 	"repositories": [
+        {
+	        "type": "package",
+	        "package": {
+	            "name": "bootstrap/bootstrapJS",
+	            "version": "4.1.1",
+	            "dist": {
+	                "url": "https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js",
+	                "type": "file"
+	            }
+	        }
+    	},
+        {
+	        "type": "package",
+	        "package": {
+	            "name": "bootstrap/bootstrapCSS",
+	            "version": "4.1.1",
+	            "dist": {
+	                "url": "https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css",
+	                "type": "file"
+	            }
+	        }
+    	},
+        {
+	        "type": "package",
+	        "package": {
+	            "name": "font/fontawesome",
+	            "version": "4.5.0",
+	            "dist": {
+	                "url": "https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css",
+	                "type": "file"
+	            }
+	        }
+    	},
+        {
+	        "type": "package",
+	        "package": {
+	            "name": "jquery/jquery2",
+	            "version": "2.1.3",
+	            "dist": {
+	                "url": "http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js",
+	                "type": "file"
+	            }
+	        }
+    	},
+        {
+	        "type": "package",
+	        "package": {
+	            "name": "jquery/jquery3",
+	            "version": "3.2.1",
+	            "dist": {
+	                "url": "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js",
+	                "type": "file"
+	            }
+	        }
+    	}
+    ]
+}
